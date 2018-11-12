@@ -1,0 +1,63 @@
+Event ID: ACCEPT
+Category: kernel
+Name: Firewall Permit
+High Level Category: Access
+Low Level Category: Firewall Permit
+Severity: 1
+Description: Firewall Session Allowed
+
+Event ID: DHCPACK
+Category: dnsmasq-dhcp
+Name: DHCP Acknowledgement
+High Level Category: Application
+Low Level Category: DHCP Success
+Severity: 1
+Description: DHCP Acknowledgement
+
+Event ID: DHCPDISCOVER
+Category: dnsmasq-dhcp
+Name: DHCP Discover
+High Level Category: Application
+Low Level Category: DHCP Session Opened
+Severity: 1
+Description: DHCP Discover
+
+Event ID: DHCPOFFER
+Category: dnsmasq-dhcp
+Name: DHCP Offer
+High Level Category: Application
+Low Level Category: DHCP Session In Progress
+Severity: 1
+Description: DHCP Offer
+
+Event ID: DHCPRELEASE
+Category: dnsmasq-dhcp
+Name: DHCP Release
+High Level Category: Application
+Low Level Category: DHCP Session Closed
+Severity: 1
+Description: DHCP Release
+
+Event ID: DHCPREQUEST
+Category: dnsmasq-dhcp
+Name: DHCP Request
+High Level Category: Application
+Low Level Category: DHCP Session In Progress
+Severity: 1
+Description: DHCP Request
+
+Event ID: DROP
+Category: kernel
+Name: Firewall Deny
+High Level Category: Access
+Low Level Category: Firewall Deny
+Severity: 4
+Description: Firewall Session Denied
+
+Event ID: dropping
+Category: kernel
+Name: Firewall Deny
+High Level Category: Access
+Low Level Category: Firewall Deny
+Severity: 4
+Description: Firewall Session Denied

@@ -1,0 +1,15 @@
+Expression Type: Regex
+Expression: (\w+)\s+(\d+)\s+([\d:]+)\s(kernel)\:\s
+Format String: $4
+
+Expression Type: Regex
+Expression: (\w+)\s+(\d+)\s+([\d:]+)\s(dnsmasq-dhcp)\[\d+\]\:\s(\w+)\S+\s(|\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})\s?([0-9a-f]{2}[:-][0-9a-f]{2}[:-][0-9a-f]{2}[:-][0-9a-f]{2}[:-][0-9a-f]{2}[:-][0-9a-f]{2})\s?(|\S+)$
+Format String: $4
+
+Expression Type: Regex
+Expression: (\w+)\s+(\d+)\s+([\d:]+)\s(dnsmasq)\[\d+\]\:\s(.*?)[[\s]
+Format String: $4
+
+Expression Type: Regex
+Expression:
+Format String:

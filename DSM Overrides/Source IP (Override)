@@ -1,0 +1,7 @@
+Expression Type: Regex
+Expression: (\w+)\s+(\d+)\s+([\d:]+)\s(kernel)\:\s(|nf_ct_sip\:\s)(\w+)\s+\S+\s\S+\s(|MAC=(.*?)\s)SRC\=(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})\sDST\=(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})\s(.*?)PROTO\=(\S+)\s
+Format String: $9
+
+Expression Type: Regex
+Expression: (\w+)\s+(\d+)\s+([\d:]+)\s(dnsmasq-dhcp)\[\d+\]\:\s(\w+)\S+\s(|\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})\s?([0-9a-f]{2}[:-][0-9a-f]{2}[:-][0-9a-f]{2}[:-][0-9a-f]{2}[:-][0-9a-f]{2}[:-][0-9a-f]{2})\s?(|\S+)$
+Format String: $6

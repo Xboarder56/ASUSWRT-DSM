@@ -1,0 +1,3 @@
+Expression Type: Regex
+Expression: (\w+)\s+(\d+)\s+([\d:]+)\s(kernel)\:\s(|nf_ct_sip\:\s)(\w+)\s+\S+\s\S+\s(|MAC=(.*?)\s)SRC\=(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})\sDST\=(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})\s(.*?)PROTO\=(\S+)\sSPT\=(\d{1,5})\sDPT\=(\d{1,5})\s
+Capture Group: 14
