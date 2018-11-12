@@ -28,6 +28,6 @@ Additionally, under the Event Mappings tab when creating the custom DSM custom e
 
 
 # TODO/WIP
-Finish DNS Parsing
-VPN Support (OPENVPN)
-ASUSWRT Custom logs?
+- Finish DNS Parsing
+- VPN Support (OPENVPN)
+- ASUSWRT Custom logs?
