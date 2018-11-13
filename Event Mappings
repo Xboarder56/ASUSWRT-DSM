@@ -1,3 +1,19 @@
+Event ID: query
+Category: dnsmasq
+Name: DNS Query
+High Level Category: Application
+Low Level Category: DNS Opened
+Severity: 1
+Description: A client is querying the DNS server to resolve a domain name to IP address.
+
+Event ID: forwarded
+Category: dnsmasq
+Name: DNS Forward
+High Level Category: Application
+Low Level Category: DNS In Progress
+Severity: 1
+Description: DNS request has been forwarded to designated DNS server for resolution.
+
 Event ID: ACCEPT
 Category: kernel
 Name: Firewall Permit

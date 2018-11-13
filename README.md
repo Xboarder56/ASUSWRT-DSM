@@ -2,7 +2,7 @@
 ASUSWRT DSM for QRadar
 
 # ASUSWRT Firmware Changes (ASUS Merlin Firmware)
-This is a work in progress DSM that is being created for IBM QRadar CE. I'm slowly building the regex logic to parse the various functions of the ASUSWRT firmware to add as a log source. This is my first attempt at a custom DSM and it will be slowly improved overtime as I learn more. 
+This is a work in progress DSM that is being created for IBM QRadar CE. I'm slowly building the regex logic to parse the various functions of the ASUSWRT firmware to add as a log source. This is my first attempt at a custom DSM and it will be slowly improved overtime as I learn more.
 
 The router will need the following settings changed when creating the new log source:
 
