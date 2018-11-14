@@ -1,9 +1,4 @@
-** kernel logs **
+** kernel/dnsmasq logs **
 Expression Type: Regex
-Expression: DST\=(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})
-Format String: $1
-
-** dnsmasq logs **
-Expression Type: Regex
-Expression: to\s(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})
-Format String: $1
+Expression: (to\s|is\s|DST\=|hosts\.dnsmasq\s)(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})
+Format String: $2

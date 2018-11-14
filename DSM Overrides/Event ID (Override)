@@ -3,5 +3,5 @@ Expression: (\w+)\s+(\d+)\s+([\d:]+)\s(kernel)\:\s(|nf_ct_sip\:\s)(\w+)\s+\S+\s\
 Format String: $6
 
 Expression Type: Regex
-Expression: (\w+)\s+(\d+)\s+([\d:]+)\s(dnsmasq-dhcp|dnsmasq)\[\d+\]\:\s(\w+)(|\S+)\s
+Expression: (\w+)\s+(\d+)\s+([\d:]+)\s(dnsmasq-dhcp|dnsmasq)\[\d+\]\:\s((\/etc\/\S+)|\w+)(|\S+)\s
 Format String: $5

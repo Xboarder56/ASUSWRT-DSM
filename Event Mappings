@@ -1,3 +1,35 @@
+Event ID: config
+Category: dnsmasq
+Name: DNS Lookup Failed
+High Level Category: Application
+Low Level Category: DNS Denied
+Severity: 5
+Description: The DNS lookup failed to resolve resolve a domain name to an IP address.
+
+Event ID: /etc/hosts.dnsmasq
+Category: dnsmasq
+Name: DNS Local Reply
+High Level Category: Application
+Low Level Category: DNS In Progress
+Severity: 1
+Description: The local DNS server is responding to a client with the results for a local DNS lookup.
+
+Event ID: cached
+Category: dnsmasq
+Name: DNS Cached Reply
+High Level Category: Application
+Low Level Category: DNS In Progress
+Severity: 1
+Description: The local DNS server is responding to a client with the results from the cached DNS query.
+
+Event ID: reply
+Category: dnsmasq
+Name: DNS Reply
+High Level Category: Application
+Low Level Category: DNS In Progress
+Severity: 1
+Description: A DNS server is responding to a client with the results from the DNS query.
+
 Event ID: query
 Category: dnsmasq
 Name: DNS Query
